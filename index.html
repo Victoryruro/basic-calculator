@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="a basic calculator">
+    <meta name="keywords" content="calculator,basic, calculate">
+    <title>A basic calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    
+    <main>
+        <div class="calculator-container">
+        <input type="text"id="one" placeholder="0">
+        <button onclick="clr()" >CLR</button>
+        <button onclick="del()" >DEL</button>
+        <button onclick="cal('/100')">%</button>
+        <button onclick="cal('+')" >+</button>
+        <button onclick="cal(9)" >9</button>
+        <button onclick="cal(8)" >8</button>
+        <button onclick="cal(7)" >7</button>
+        <button onclick="cal('-')" >-</button>
+        <button onclick="cal(6)" >6</button>
+        <button onclick="cal(5)" >5</button>
+        <button onclick="cal(4)" >4</button>
+        <button onclick="cal('*')" > × </button>
+        <button onclick="cal(3)" >3</button>
+        <button onclick="cal(2)" >2</button>
+        <button onclick="cal(1)" >1</button>
+        <button onclick="cal('/')" >÷</button>
+        <button onclick="cal('.')" id="dot" >.</button>
+        <button onclick="cal(0)" >0</button>
+        <button onclick="result()" id="equal">=</button>
+    </div> 
+    </main>
+   
+  
+
+
+    <footer>
+        <p>&copy;&nbsp;<time datetime="2022-07-08 1:57">8th August 2022 </time> victory Diemuodeke</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,69 @@
+*{
+    font-weight:bold;
+    font-size: large;
+
+}
+body{
+    margin: 0px auto;
+}
+main{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    background: url("./g5963.png") fixed center center;
+    padding-bottom:20px ;
+    margin: 0px auto;
+    height: 80vh;
+}
+.calculator-container{
+    max-width: fit-content;
+    display: grid;
+    grid-template-columns:66px 66px 66px 66px;
+    gap: 10px;
+    background-color: rgb(106, 103, 126);
+    height: 65vh;
+    border: 2px solid rgb(106, 103, 126);
+    border-radius: 20px;
+    padding: 15px;
+    box-shadow: 2px 6px 13px  rgb(24, 23, 28),
+               inset 1px -2px 17px  rgb(106, 103, 126);
+}
+input{
+    grid-column: span 4;
+    text-align: right;
+    padding-right: 15px;
+    border-style: none;
+    border-radius: 10px;
+    /* box-shadow: inset 1px -2px 15px rgb(106, 103, 126),
+                inset 1px -2px 17px rgb(106, 103, 126),
+                inset 1px -2px 17px rgb(106, 103, 126),
+                inset 1px -2px 17px rgb(106, 103, 126); */
+
+
+}
+button{
+    border-radius: 10px;
+    border-style: none;
+}
+#equal{
+    grid-column: span 2;
+    font-size: larger;
+}
+#dot{
+    
+    font-weight: bolder;
+    text-align: center;
+}
+footer{
+    background-color: rgba(231, 219, 219, 0.673);
+    margin: 0px auto;
+    justify-content: center;
+    height: 12vh;
+    text-align: center;
+    font-weight: bold;
+    font-size: larger;
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    color: rgba(8, 8, 114, 0.873);
+}
